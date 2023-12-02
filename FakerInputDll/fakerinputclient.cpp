@@ -9,6 +9,8 @@
 #include "fakerinputclient.h"
 #include "fakerinputcommon.h"
 
+#pragma comment (lib, "Setupapi.lib")
+
 typedef struct _fakerinput_client_t
 {
     HANDLE hControl;

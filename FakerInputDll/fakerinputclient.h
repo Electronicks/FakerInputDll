@@ -5,11 +5,12 @@
 
 typedef struct _fakerinput_client_t* pfakerinput_client;
 
-#ifdef FAKERINPUTLIB_EXPORTS
-#define FAKERINPUTLIB_API __declspec(dllexport)
-#else
-#define FAKERINPUTLIB_API __declspec(dllimport)
-#endif
+//#ifdef FAKERINPUTDLL_EXPORTS
+//#define FAKERINPUTLIB_API __declspec(dllexport)
+//#else
+//#define FAKERINPUTLIB_API __declspec(dllimport)
+//#endif
+#define FAKERINPUTLIB_API 
 
 EXTERN_C_START
 
